@@ -46,6 +46,15 @@
         End Try
 
     End Sub
+    
+    Private Sub btnMOD_Click(sender As Object, e As EventArgs) Handles btnMOD.Click
+        num1 = Val(txtNum1.Text
+                   )
+        num2 = Val(txtNum2.Text
+                   )
+        result = num1 Mod num2
+        txtResult.Text = result
 
+    End Sub
    
 End Class
